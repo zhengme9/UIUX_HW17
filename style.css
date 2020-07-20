@@ -7,6 +7,13 @@ body{
     font-size: 14px;
     line-height: 25pt;
 }
+.header{
+    background-color: #FAFAFA;
+    color: #707070;
+}
+.footer{
+    background-color: #FAFAFA;
+    color: #707070;
 .hello{
     color: black;
 }
@@ -69,7 +76,6 @@ body{
     justify-content: flex-end;
     align-items: center;
     padding: 0px 15px;
-    background-color: #FAFAFA;
     /* border: 1px solid red; */
 }
 .logo{
@@ -82,13 +88,13 @@ body{
 .navbar li{
     list-style: none;
     display: inline-block;
-    margin: 0px 20px;
+    margin: 0 20px 0 40px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
     /* border: 1px solid orange; */
 }
 .navbar li:hover {
-    color:#AB98A3;
+    color: black;
 }
 .footer{
     display: flex;
@@ -106,5 +112,5 @@ body{
     /* border: 1px solid orange; */
 }
 .footer li:hover {
-    color: #AB98A3;
+    color: black;
 }
